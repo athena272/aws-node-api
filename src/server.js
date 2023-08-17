@@ -7,5 +7,5 @@ app.use(express.json())
 
 app.use('/users', userRout)
 
-
 app.listen(3000, () => console.log('🔥 server on fire 🔥'))
+0
