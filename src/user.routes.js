@@ -1,9 +1,15 @@
 import { Router } from "express"
+import { UserRepository } from "./repository/UserRepository.js"
 
 const userRout = Router()
 
-userRout.get('/', (req, res) => {
-    res.json({ message: "Welcome to the app!" })
+const userRepository = new UserRepository()
+
+userRout.post('/users', (req, res) => {
+    const { cpf, name, birthDate } = req.body
+
+    userRepository.create({ cpf, name, birthDate })
+    return res.status(200).send()
 })
 
 export { userRout }
