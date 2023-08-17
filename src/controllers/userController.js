@@ -37,7 +37,10 @@ function createUser(req, res) {
     }
 
     users.push(newUser)
-    res.send(200, newUser)
+    res.send(200, {
+        message: "New user added successfully",
+        newUser
+    })
 }
 
 function updateUser(req, res) {
