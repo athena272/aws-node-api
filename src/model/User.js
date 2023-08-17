@@ -10,6 +10,8 @@ class User {
         if (!this.id) {
             this.id = uuidv4()
         }
+
+        this.birthDate = new Date(this.birthDate)
     }
 }
 
