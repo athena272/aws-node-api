@@ -5,8 +5,8 @@ const { bodyParser } = require('./helpers/bodyParser.js');
 
 const server = http.createServer((req, res) => {
     // Configurar os cabeçalhos CORS manualmente
-    res.setHeader('Access-Control-Allow-Origin', '*'); // Permitir todos os domínios (não recomendado para produção)
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
+    // res.setHeader('Access-Control-Allow-Origin', '*'); // Permitir todos os domínios (não recomendado para produção)
+    // res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
     // Exibir informações sobre o método HTTP e o endpoint solicitado
