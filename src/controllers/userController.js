@@ -29,6 +29,12 @@ function createUser(req, res) {
     const { body } = req
 
     const lastUserId = users[users.length - 1].id
+
+    // Verifica se o cpf é um numero
+    if (!isNumeric(body.cpf)) {
+        return res.status(400).json({ errorMessage: 'Invalid CPF format' })
+    }
+    
     const newUser = {
         id: lastUserId + 1,
         cpf: body.cpf,
@@ -41,6 +47,10 @@ function createUser(req, res) {
         message: "New user added successfully",
         newUser
     })
+}
+
+function isNumeric(value) {
+    return /^\d+$/.test(value);
 }
 
 function updateUser(req, res) {
