@@ -32,7 +32,7 @@ function getUserById(req, res) {
     const user = users.find((user) => user.id === Number(id))
 
     if (!user) {
-        return res.send(400, { errorMessage: 'User not found' })
+        return res.send(404, { errorMessage: 'User not found' })
 
     }
 
@@ -80,7 +80,7 @@ function updateUser(req, res) {
     const userExists = users.find((user) => user.id === Number(id))
 
     if (!userExists) {
-        return res.send(400, { errorMessage: 'User not found' })
+        return res.send(404, { errorMessage: 'User not found' })
 
     }
 
