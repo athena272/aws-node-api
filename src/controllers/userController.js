@@ -37,7 +37,7 @@ function createUser(req, res) {
 
     const newUser = {
         id: lastUserId + 1,
-        cpf: body.cpf,
+        cpf: parseInt(body.cpf),
         name: body.name,
         birthDate: body.birthDate
     }
