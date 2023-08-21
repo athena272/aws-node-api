@@ -112,7 +112,17 @@ function updateUser(req, res) {
         return user
     })
 
-    res.send(200, { id: Number(id), cpf: cpf, name: name, birthDat: birthDate })
+    const userUpdated =  { 
+        id: Number(id), 
+        cpf: cpf, 
+        name: name, 
+        birthDat: birthDate 
+    }
+
+    res.send(200, {
+        message: "New user update successfully", 
+        userUpdated
+    })
 }
 
 function deleteUser(req, res) {
