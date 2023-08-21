@@ -120,7 +120,7 @@ function updateUser(req, res) {
     }
 
     res.send(200, {
-        message: "New user update successfully", 
+        message: "User updated successfully", 
         userUpdated
     })
 }
