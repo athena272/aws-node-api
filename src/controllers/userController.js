@@ -1,5 +1,19 @@
 let users = require('../mocks/users.js')
 
+
+function isNumeric(value) {
+    return /^\d+$/.test(value);
+}
+
+function cpfExists(cpf) {
+    return users.find((user) => user.cpf === Number(cpf))
+}
+
+function isValidDateFormat(date) {
+    const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+    return datePattern.test(date);
+}
+
 function listUsers(req, res) {
     const { order } = req.query
     const sortedUsers = users.sort((a, b) => {
@@ -35,6 +49,16 @@ function createUser(req, res) {
         return res.send(400, { errorMessage: 'Invalid CPF format' })
     }
 
+    // Verifica se ja existe um cpf para esse usuario
+    if (cpfExists(body.cpf)) {
+        return res.send(400, { errorMessage: 'CPF already exists' })
+    }
+
+    // Verifica se a data esta em um formato valido
+    if (!isValidDateFormat(body.birthDate)) {
+        return res.send(400, { errorMessage: 'Invalid birthDate format' })
+    }
+
     const newUser = {
         id: lastUserId + 1,
         cpf: parseInt(body.cpf),
@@ -49,10 +73,6 @@ function createUser(req, res) {
     })
 }
 
-function isNumeric(value) {
-    return /^\d+$/.test(value);
-}
-
 function updateUser(req, res) {
     const { id } = req.params
     const { cpf, name, birthDate } = req.body
@@ -62,6 +82,21 @@ function updateUser(req, res) {
     if (!userExists) {
         return res.send(400, { errorMessage: 'User not found' })
 
+    }
+
+    // Verifica se o cpf é um numero
+    if (!isNumeric(cpf)) {
+        return res.send(400, { errorMessage: 'Invalid CPF format' })
+    }
+
+    // Verifica se ja existe um cpf para esse usuario
+    if (cpfExists(cpf)) {
+        return res.send(400, { errorMessage: 'CPF already exists' })
+    }
+
+    // Verifica se a data esta em um formato valido
+    if (!isValidDateFormat(birthDate)) {
+        return res.send(400, { errorMessage: 'Invalid birthDate format' })
     }
 
     users = users.map((user) => {
