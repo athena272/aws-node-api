@@ -8,6 +8,9 @@ Este projeto é uma excelente opção para desenvolvedores iniciantes que deseja
 
 É uma ótima oportunidade de entender como as operações CRUD são implementadas em uma API e como organizar e estruturar o código de forma modular e escalável. Além disso, é um ótimo recurso para desenvolvedores experientes que buscam uma referência ou um ponto de partida para criar uma API simples e customizada sem a utilização de pacotes externos.
 
+## Link de [Acesso](https://aws-node-api.onrender.com/users)
+## Url: https://aws-node-api.onrender.com/users
+
 ## Tecnologias
 - Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
 - NodeJS <img align="center" alt="Gui-NodeJs" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
@@ -20,6 +23,10 @@ Abra o terminal na pasta do projeto e execute o seguinte comando para rodar o pr
 node src/index.js
 ```
 ![image](https://github.com/athena272/aws-node-api/assets/58920070/38df4468-6a00-4337-83b8-83fec4654e84)
+
+## Urls usadas para teste local e em deploy
+![image](https://github.com/athena272/aws-node-api/assets/58920070/c9ad0377-189e-4a4b-84b4-12733863fe96)
+
 
 ## List Users
 ![image](https://github.com/athena272/aws-node-api/assets/58920070/971f339b-ff10-4a0c-b35f-f20e7b54a101)
@@ -45,6 +52,7 @@ node src/index.js
 
 ![image](https://github.com/athena272/aws-node-api/assets/58920070/80e716b7-6e19-4ebd-9280-be99e9d65848)
 
-
+## Link de [Acesso](https://aws-node-api.onrender.com/users)
+## Url: https://aws-node-api.onrender.com/users
 
 
