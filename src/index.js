@@ -4,9 +4,14 @@ const routes = require('./routes.js');
 const { bodyParser } = require('./helpers/bodyParser.js');
 
 const server = http.createServer((req, res) => {
+    // Configurar os cabeçalhos CORS manualmente
+    res.setHeader('Access-Control-Allow-Origin', '*'); // Permitir todos os domínios (não recomendado para produção)
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
     // Exibir informações sobre o método HTTP e o endpoint solicitado
     console.log(`Method: ${req.method} | Endpoint: ${req.url}`);
-    
+
     // Analisar a URL da solicitação
     const parsedUrl = url.parse(req.url, true);
 
