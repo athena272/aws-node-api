@@ -32,9 +32,9 @@ function createUser(req, res) {
 
     // Verifica se o cpf é um numero
     if (!isNumeric(body.cpf)) {
-        return res.status(400).json({ errorMessage: 'Invalid CPF format' })
+        return res.send(400, { errorMessage: 'Invalid CPF format' })
     }
-    
+
     const newUser = {
         id: lastUserId + 1,
         cpf: body.cpf,
