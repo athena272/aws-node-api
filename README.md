@@ -12,10 +12,6 @@ Este projeto é uma excelente opção para desenvolvedores iniciantes que deseja
 - Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
 - NodeJS <img align="center" alt="Gui-NodeJs" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
          
-## Progressão do projeto
-![image](https://user-images.githubusercontent.com/58920070/232341113-2803dc8d-772c-453d-b054-e481d801b837.png)
-
-
 ## Como executar
 
 Clone este repositório em sua máquina local.
@@ -23,29 +19,32 @@ Abra o terminal na pasta do projeto e execute o seguinte comando para rodar o pr
 ```bash
 node src/index.js
 ```
-![image](https://user-images.githubusercontent.com/58920070/232243701-c0905ba8-6600-455c-927e-ba715780e2c2.png)
-
+![image](https://github.com/athena272/aws-node-api/assets/58920070/38df4468-6a00-4337-83b8-83fec4654e84)
 
 ## List Users
-![image](https://user-images.githubusercontent.com/58920070/232242509-08ee50da-c3b4-4ca2-ab2e-d69a506fce41.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/971f339b-ff10-4a0c-b35f-f20e7b54a101)
 
 # List User By Id
-![image](https://user-images.githubusercontent.com/58920070/232242543-8934d469-e7c5-4342-b7eb-bf288ba191b0.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/f61e4c12-501b-471c-b913-fe46431e6dd7)
 
 # List Users OrderDesc
-![image](https://user-images.githubusercontent.com/58920070/232242658-880303b7-f712-44ab-871d-434367fe401c.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/b6b30999-2f9c-4866-992b-42343ec1c1d3)
 
 # Create User
-![image](https://user-images.githubusercontent.com/58920070/232243964-62823978-a5fc-4608-a671-73c32c248690.png)
-![image](https://user-images.githubusercontent.com/58920070/232244034-1706f241-e701-46ba-85b9-2b074ac9b9e1.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/a5dbb9c0-5cc5-4320-aedc-913b2260dbbf)
+
+![image](https://github.com/athena272/aws-node-api/assets/58920070/25d2686e-00ad-4894-a158-7c6985171117)
 
 # Update User
-![image](https://user-images.githubusercontent.com/58920070/232244517-f5caed12-99a4-4c19-8ba7-a3b88040f512.png)
-![image](https://user-images.githubusercontent.com/58920070/232244578-9957d9e2-09a5-4531-92da-3b7afc22ebdb.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/acb1f9da-d34a-4f11-b8a5-4f4f9173ae38)
+
+![image](https://github.com/athena272/aws-node-api/assets/58920070/3b77c93f-9bad-4803-8178-ee5a28882d4b)
 
 # Delete User
-![image](https://user-images.githubusercontent.com/58920070/232244702-d320fd00-4113-4fb1-8181-3ce18ecd8033.png)
-![image](https://user-images.githubusercontent.com/58920070/232244709-45cbb4db-359d-41fa-ab04-49322eed6027.png)
+![image](https://github.com/athena272/aws-node-api/assets/58920070/0e368d96-7972-4174-b25a-1397a30edde9)
+
+![image](https://github.com/athena272/aws-node-api/assets/58920070/80e716b7-6e19-4ebd-9280-be99e9d65848)
+
 
 
 
