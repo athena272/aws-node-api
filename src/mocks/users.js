@@ -31,7 +31,7 @@ const users = [
     },
     {
         id: 6,
-        cpf: 00011122200,
+        cpf: 11122200465,
         name: "Ana",
         birthDate: "1989-11-25"
     },
