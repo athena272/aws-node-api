@@ -63,5 +63,5 @@ const server = http.createServer((req, res) => {
 
 });
 
-// Iniciar o servidor na porta 3000
+// Iniciar o servidor na porta 80
 server.listen(80, () => console.log('🔥 Welcome to my API 🔥'));
