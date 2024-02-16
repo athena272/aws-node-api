@@ -8,7 +8,7 @@ Este projeto é uma excelente opção para desenvolvedores iniciantes que deseja
 
 É uma ótima oportunidade de entender como as operações CRUD são implementadas em uma API e como organizar e estruturar o código de forma modular e escalável. Além disso, é um ótimo recurso para desenvolvedores experientes que buscam uma referência ou um ponto de partida para criar uma API simples e customizada sem a utilização de pacotes externos.
 
-## Link de [Acesso](https://aws-node-api.onrender.com/users)
+## Link de [Documentação Swagger](https://app.swaggerhub.com/apis-docs/athena272/aws-node-api/1.0.0#/)
 ## Url: https://aws-node-api.onrender.com/users
 
 ## Tecnologias
@@ -52,7 +52,7 @@ node src/index.js
 
 ![image](https://github.com/athena272/aws-node-api/assets/58920070/80e716b7-6e19-4ebd-9280-be99e9d65848)
 
-## Link de [Acesso](https://aws-node-api.onrender.com/users)
+## Link de [Documentação Swagger](https://app.swaggerhub.com/apis-docs/athena272/aws-node-api/1.0.0#/)
 ## Url: https://aws-node-api.onrender.com/users
 
 
